@@ -17,7 +17,7 @@ function App() {
               <Weather/>
             </div>
             <div className='open-source'>
-              <a href='/'>Open-source</a>
+              <a href='https://github.com/arezou-r/react-weather-app' target="_blank" rel="noreferrer">Open-source</a>
               <span> code, by Arezou Rouhi</span>
             </div>
           </div>
