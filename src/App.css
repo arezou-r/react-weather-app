@@ -1,38 +1,78 @@
 .App {
+  font-family: sans-serif;
   text-align: center;
+  padding: 50px 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App .Weather-box {
+  border-radius: 10px;
+  border: 1px solid rgb(202, 202, 202);
+  padding: 15px;
+  max-width: 650px;
+  margin: 0 auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-header{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-start;
+  margin-bottom: 15px;
+}
+.App-header a{
+  margin-right: 15px;
+  text-decoration: none;
+}
+.App form {
+  width: 100%;
+}
+.App form input[type="submit"] {
+  width: 100%;
+}
+.App .overView-box {
+  text-align: left;
+}
+.App .overView-box h1 {
+  color: #878787;
+  font-size: 24px;
+  font-weight: 100;
+  margin: 0;
+  line-height: 28px;
+}
+.App ul {
+  margin: 10px 0;
+  padding: 0;
+  color: rgb(87, 87, 87);
+  list-style: none;
+}
+.App .tempNumbr {
+  font-size: 45px;
+  margin-bottom: 0;
+}
+.App .weatherImg {
+  max-width: 50px;
+  height: auto;
+}
+.App .units {
+  position: relative;
+  top: 7px;
+}
+.App .units a {
+  text-decoration: none;
+}
+.App .forecastBox{
+  border: 1px solid #eee;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  padding: 15px 10px;
+}
+.App .forecastBox .forecast-icon{
+  margin: 10px auto;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.open-source{
+  text-align: left;
+  font-size: 14px;
+  max-width: 650px;
+  margin: 10px auto;
 }
